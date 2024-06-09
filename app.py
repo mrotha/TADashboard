@@ -1,5 +1,10 @@
 #Import all related libraries
 import streamlit as st
+import pandas as pd
+
+df = pd.read_excel('TA_Tracking_Module_v1.xlsm', 'Position')
+
+print(df)
 
 #Page setup using streamlit
 st.set_page_config(page_title="TA Dashboard",
