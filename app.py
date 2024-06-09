@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_excel('TA_Tracking_Module_v1.xlsm', 'Position')
+# df = pd.read_excel('TA_Tracking_Module_v1.xlsm', 'Position')
 
 print(df)
 
