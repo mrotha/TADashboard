@@ -1,7 +1,6 @@
 #Import all related libraries
 import pandas as pd
 import streamlit as st
-import plotly as px
 from PIL import Image
 import calendar as cal
 from datetime import date
